@@ -1,4 +1,0 @@
-ABOUT
-======
-
-This project controlls the brightness of a 5v USB LED strip via an IR Remote of a MXQ-PRO TV Box.
