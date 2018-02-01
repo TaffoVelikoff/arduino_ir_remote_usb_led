@@ -32,7 +32,7 @@ void loop()
       // Now we do different stuff depending on the received data
       switch(results.value) {
         
-        // In my case this is the VOL + button
+        // In my case this is the "VOL+" button
         case 2155834005:
           BRIGHTNESS = BRIGHTNESS + BRIGHTNESS_COEF;
 
@@ -43,7 +43,7 @@ void loop()
           
           break;
           
-        // In my case this is the VOL - button
+        // In my case this is the "VOL-" button
         case 2155866645:
           BRIGHTNESS = BRIGHTNESS - BRIGHTNESS_COEF;
 
@@ -54,13 +54,13 @@ void loop()
 
           break;
 
-        // In my case this is the TV IN button
+        // In my case this is the "TV IN" button
         case 2155813605:
 
           BRIGHTNESS = 255;
           break;
 
-        // In my case this is the SET button
+        // In my case this is the "SET" button
         case 2155846245:
         
           BRIGHTNESS = 0;
